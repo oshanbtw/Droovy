@@ -1,0 +1,30 @@
+<h3>Yeni Oyun Ekle</h3>
+<form [formGroup]="productAddForm" (ngSubmit)="add()">
+    <div class="form-group">
+        <input type="text" id="name" name="name" formControlName="name" class="form-control" placeholder="Oyun Adı">
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="text" id="description" name="description" formControlName="description" class="form-control" placeholder="Açıklama">
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="text" id="imageUrl" name="imageUrl" formControlName="imageUrl" class="form-control" placeholder="Resim Linki">
+    </div>
+    <br>
+    <div class="form-group">
+        <input type="text" id="price" name="price" formControlName="price" class="form-control" placeholder="Fiyat">
+    </div>
+    <br>
+    <div class="form-group">
+        <select class="form-control" formControlName="categoryID" name="categoryID">
+            <option *ngFor="let category of categories" [value]="category.id"> {{category.name}} </option>
+        </select>
+    </div>
+
+    <br>
+    <button type="submit" class="btn btn-primary" [disabled]="productAddForm.invalid">
+        Oyun Ekle
+    </button>
+
+</form>
