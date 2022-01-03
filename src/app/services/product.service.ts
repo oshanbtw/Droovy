@@ -40,6 +40,14 @@ export class ProductService {
     )
   }
 
+  getProductOne(productId:number):Observable<Product>{
+    let yeniPath=this.path;
+    if(productId){
+     yeniPath+="/"+productId;
+    }
+   return this.http.get<Product>(yeniPath).pipe(tap(data=>console.log(JSON.stringify(data))),catchError(this.handleError));
+  }
+
   handleError(err:HttpErrorResponse)
   {
     let errorMessage = ""

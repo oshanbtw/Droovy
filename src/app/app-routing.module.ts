@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'products/category/:CatID', component: ProductComponent},
   {path: 'product-add', component: AddProductComponent, canActivate:[LoginGuard]},
   {path: 'login', component: LoginComponent},
-  {path: 'app-product-details', component: ProductDetailsComponent}
+  {path: 'app-product-details/:productId', component: ProductDetailsComponent}
 
 ];
 
