@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { LoginGuard } from './login/login.guard';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 import { AddProductComponent } from './product/add-product/add-product.component';
 import { ProductComponent } from './product/product.component';
 
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: '', redirectTo: 'products', pathMatch: 'full'},
   {path: 'products/category/:CatID', component: ProductComponent},
   {path: 'product-add', component: AddProductComponent, canActivate:[LoginGuard]},
-  {path: 'login', component: LoginComponent}
+  {path: 'login', component: LoginComponent},
+  {path: 'app-product-details', component: ProductDetailsComponent}
 
 ];
 

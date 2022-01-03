@@ -12,12 +12,12 @@
 
 <div class="row">
   <div *ngFor="let urun of products | productFilter : filterText" class="card" style="width: 18rem;">
-    <a routerLink="/login" > <img [src]="urun.imageUrl" class="card-img-top" alt="..."></a>
+    <a routerLink="/app-product-details" > <img [src]="urun.imageUrl" class="card-img-top" alt="..."></a>
     <div class="card-body">
       <h5 class="card-title"> {{urun.name | uppercase}} {{urun.price | currency:'₺'}} </h5>
       <p style="overflow: hidden;display: -webkit-box; -webkit-line-clamp: 3;-webkit-box-orient: vertical;"  class="card-text">{{urun.description}}</p>
       <br>
-      <button routerLink="/login" class="btn btn-danger" style="width: 80%; position: absolute; bottom: 0; margin-bottom: 10px;" >Devamını Gör</button>
+      <button routerLink="/app-product-details" class="btn btn-danger" style="width: 80%; position: absolute; bottom: 0; margin-bottom: 10px;" >Devamını Gör</button>
     </div>
   </div>
 </div>
