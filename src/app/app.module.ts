@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AddProductComponent } from './product/add-product/add-product.component';
 import { LoginComponent } from './login/login.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ProductFilterPipe,
     AddProductComponent,
     LoginComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
