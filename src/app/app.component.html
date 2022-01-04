@@ -1,19 +1,27 @@
+<!--Yukardaki Menüyü sabitliyor-->
+<style type="text/css">
+.navbar{
+width: 100%;
+position: fixed;
+background-color:red;
+z-index: 2;
+}
+</style>
 
-  
-
-<nav class="navbar navbar-light bg-dark">
+<nav class="navbar navbar-light bg-dark " >
   <div class="container-fluid">
-    <a class="navbar-brand text-light" routerLink="/products">Drovy Game Shop</a>
+    <a class="navbar-brand text-light" routerLink="/products">Drovy Game Info Shop</a>
     <form class="d-flex">
-     <button class="btn btn-outline-success text-light " routerLink="/product-add" >Oyun Ekle</button>
-      <button class="btn btn-outline-success text-light" routerLink="/login" >Giriş</button>
+      <button class="btn btn-outline-success text-light " routerLink="/product-add">Oyun Ekle</button>
+      <p>.</p>
+      <button *ngIf="isLoggedIn() == false" class="btn btn-outline-success text-light" routerLink="/login">Giriş</button>
+      <button *ngIf="isLoggedIn() == true" (click) = "logOut()" class="btn btn-outline-danger text-light">Çıkış</button>
     </form>
   </div>
 </nav>
 
 <div class="container-fluid">
-      <main role="main">
-        <router-outlet></router-outlet>
-      </main>
-    </div>
-
+  <main role="main">
+    <router-outlet></router-outlet>
+  </main>
+</div>

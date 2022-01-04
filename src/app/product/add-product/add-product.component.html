@@ -1,15 +1,17 @@
-<h3>Yeni Oyun Ekle</h3>
-<form [formGroup]="productAddForm" (ngSubmit)="add()">
+<h3 class="buton-signin">Yeni Oyun Ekle</h3>
+<form [formGroup]="productAddForm" (ngSubmit)="add()" class="buton-signin">
     <div class="form-group">
         <input type="text" id="name" name="name" formControlName="name" class="form-control" placeholder="Oyun Adı">
     </div>
     <br>
     <div class="form-group">
-        <input type="text" id="description" name="description" formControlName="description" class="form-control" placeholder="Açıklama">
+        <input type="text" id="description" name="description" formControlName="description" class="form-control"
+            placeholder="Açıklama">
     </div>
     <br>
     <div class="form-group">
-        <input type="text" id="imageUrl" name="imageUrl" formControlName="imageUrl" class="form-control" placeholder="Resim Linki">
+        <input type="text" id="imageUrl" name="imageUrl" formControlName="imageUrl" class="form-control"
+            placeholder="Resim Linki">
     </div>
     <br>
     <div class="form-group">
@@ -23,7 +25,8 @@
     </div>
 
     <br>
-    <button type="submit" class="btn btn-primary" [disabled]="productAddForm.invalid">
+
+    <button type="submit" class="btn btn-primary buton-control" [disabled]="productAddForm.invalid">
         Oyun Ekle
     </button>
 

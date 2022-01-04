@@ -1,23 +1,24 @@
-
 <app-category></app-category>
 <div class="form-group">
 
-  <input class="form-control" id="productName" placeholder="Oyun Ara" [(ngModel)] = "filterText"/>
-  <br>
+  <input class="form-control" id="productName" placeholder="Oyun Ara" [(ngModel)]="filterText" />
+
   <small *ngIf="filterText">
     Şu anda <strong> {{filterText}} </strong> aradınız
   </small>
 
 </div>
-
+<hr>
 <div class="row">
   <div *ngFor="let urun of products | productFilter : filterText" class="card" style="width: 16.9rem;">
-    <a routerLink="/app-product-details/{{urun.id}}" > <img [src]="urun.imageUrl" class="card-img-top" alt="..."></a>
+    <a routerLink="/app-product-details/{{urun.id}}"> <img [src]="urun.imageUrl" class="card-img-top" alt="..."></a>
     <div class="card-body">
       <h5 class="card-title"> {{urun.name | uppercase}} {{urun.price | currency:'₺'}} </h5>
-      <p style="overflow: hidden;display: -webkit-box; -webkit-line-clamp: 3;-webkit-box-orient: vertical;"  class="card-text">{{urun.description}}</p>
+      <p style="overflow: hidden;display: -webkit-box; -webkit-line-clamp: 3;-webkit-box-orient: vertical;"
+        class="card-text">{{urun.description}}</p>
       <br>
-      <button routerLink="/app-product-details/{{urun.id}}" class="btn btn-danger" style="width: 80%; position: absolute; bottom: 0; margin-bottom: 10px;" >Devamını Gör</button>
+      <button routerLink="/app-product-details/{{urun.id}}" class="btn btn-danger"
+        style="width: 80%; position: absolute; bottom: 0; margin-bottom: 10px;">Devamını Gör</button>
     </div>
   </div>
 </div>
