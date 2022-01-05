@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AccountService } from '../services/account.service';
 import { AlertifyService } from '../services/alertify.service';
+import { Login } from './login';
 import { User } from './user';
 
 @Component({
@@ -11,7 +12,7 @@ import { User } from './user';
 })
 export class LoginComponent implements OnInit {
 
-  model:User = new User()
+  loginData:Login = new Login()
 
   constructor(private accountService: AccountService, private router: Router,
     private myAlertifyService: AlertifyService) { }
@@ -21,15 +22,11 @@ export class LoginComponent implements OnInit {
 
   login()
   {
-    if(this.accountService.login(this.model))
-    {
-      this.myAlertifyService.success(localStorage.getItem("isLogged")+ " Girişiniz Gerçekleşti")
-    }
-    else
-    {
-      this.myAlertifyService.error("Hatalı Giriş");
-      
-    }
+    this.accountService.login(this.loginData).subscribe(data => {
+      this.myAlertifyService.success("Başarıyla Giriş Yaptınız.")
+      localStorage.setItem("Token", data.jwt)
+    })
+
     this.router.navigate(["products"])
   }
 

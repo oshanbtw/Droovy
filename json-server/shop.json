@@ -1,0 +1,206 @@
+{
+  "product": [
+    {
+      "name": "Counter Strike: Global Offansive",
+      "description": "Counter-Strike: Global Offensive ya da bilinen kısa adıyla CS:GO, Valve ve Hidden Path Entertainment tarafından geliştirilen çevrimiçi birinci şahıs nişancı oyunudur.",
+      "imageUrl": "https://i4.hurimg.com/i/hurriyet/75/0x0/5e5b55870f254422c4e3ccd9.jpg",
+      "price": "80",
+      "categoryID": "1",
+      "id": 1
+    },
+    {
+      "name": "Valorant",
+      "description": "Valorant, Riot Games tarafından geliştirilip yayınlanan bir free-to-play çok oyunculu taktiksel birinci şahıs nişancı video oyunudur.",
+      "imageUrl": "https://img.fanatik.com.tr/img/78/740x418/5e8c669a66a97c624b7e7ec2.jpg",
+      "price": "0.99",
+      "categoryID": "1",
+      "id": 2
+    },
+    {
+      "name": "Overwatch",
+      "description": "Overwatch, Blizzard Entertainment tarafından geliştirilen ve yayımlanan takım tabanlı çok oyunculu bir birinci şahıs nişancı oyunudur. ",
+      "imageUrl": "https://i4.hurimg.com/i/hurriyet/75/866x494/60d77a4a4e3fe0133c115cc2.jpg",
+      "price": "300",
+      "categoryID": "1",
+      "id": 3
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "description": "Grand Theft Auto V, Rockstar North tarafından geliştirilen ve Rockstar Games tarafından yayımlanan 2013 tarihli açık uçlu aksiyon-macera tarzı bir video oyunudur",
+      "imageUrl": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg",
+      "price": "100",
+      "categoryID": "2",
+      "id": 4
+    },
+    {
+      "name": "Red Dead Redemption 2",
+      "description": "Red Dead Redemption 2 Rockstar Games tarafından geliştirilen ve yayımlanan, 2018 aksiyon-macera temalı video oyunudur.",
+      "imageUrl": "https://cdn1.epicgames.com/b30b6d1b4dfd4dcc93b5490be5e094e5/offer/RDR2476298253_Epic_Games_Wishlist_RDR2_2560x1440_V01-2560x1440-2a9ebe1f7ee202102555be202d5632ec.jpg",
+      "price": "160",
+      "categoryID": "2",
+      "id": 5
+    },
+    {
+      "name": "Resident Evil: Village",
+      "description": "Resident Evil Village veya Biohazard Village, Capcom tarafından geliştirilen ve yayınlanan Hayatta kalma-korku oyunudur.",
+      "imageUrl": "https://cdn-ext.fanatical.com/production/product/1280x720/3195fab1-5a9c-4a3d-b4d6-a31f876fe404.jpeg",
+      "price": "230",
+      "categoryID": "2",
+      "id": 6
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "The Witcher 3: Wild Hunt, CD Projekt RED tarafından geliştirilen, Warner Bros. Interactive Entertainment tarafından Kuzey Amerika'da, Namco Bandai Games tarafından ise Avrupa'da yayımcılığı yapılan üçüncü şahıs nişancı türü rol yapma oyunudur",
+      "imageUrl": "https://cdn1.epicgames.com/14ee004dadc142faaaece5a6270fb628/offer/EGS_TheWitcher3WildHuntGameoftheYear_CDPROJEKTRED_S1-2560x1440-9c72e2ae9ef1e869a29b767b08f2753e.jpg",
+      "price": "20",
+      "categoryID": "3",
+      "id": 7
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim",
+      "description": "The Elder Scrolls V: Skyrim, Bethesda Game Studios tarafından geliştirilip Bethesda Softworks tarafından piyasaya sürülen serbest dünya tipi aksiyon RPG video oyunudur.",
+      "imageUrl": "https://cdn-ext.fanatical.com/production/product/1280x720/305f04c9-8780-4c7b-91dd-e87979844dab.jpg",
+      "price": "80",
+      "categoryID": "3",
+      "id": 8
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Cyberpunk 2077, CD Projekt Red tarafından geliştirilen ve 2020 yılında CD Projekt tarafından yayınlanan rol yapma türündeki video oyunudur.",
+      "imageUrl": "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/2c1e97ed-3ef5-4b15-928a-20a10a2197ba_2560x1440-5294ae9f2b864121a81e56518ccd3a42",
+      "price": "125",
+      "categoryID": "3",
+      "id": 9
+    },
+    {
+      "name": "League of Legends",
+      "description": "League of Legends, Riot Games tarafından geliştirilen ve yayımlanan video oyunu.",
+      "imageUrl": "https://img.fanatik.com.tr/img/78/740x418/5e9fe39866a97cad1acbd26c.jpg",
+      "price": "0.99",
+      "categoryID": "4",
+      "id": 10
+    },
+    {
+      "name": "Dota 2",
+      "description": "Dota 2, Valve Corporation tarafından geliştirilen ve dağıtımı yapılan çevrimiçi çok oyunculu savaş arenası oyunudur.",
+      "imageUrl": "https://www.oyun.news/wp-content/uploads/dota-2-rehberi.jpg",
+      "price": "0.99",
+      "categoryID": "4",
+      "id": 11
+    },
+    {
+      "name": "SMITE",
+      "description": "Smite Hi-Rez Studios tarafından geliştirilen Üçüncü Gözden oynanan Moba oyunudur.",
+      "imageUrl": "https://cdn1.epicgames.com/076207fa2b5c4803a636af606c3c28b7/offer/Smite_EGS_UltimateGodPack_2560x1440-2560x1440-0b69e8c2cab5aea6b8620dd0077fc6ba.jpg",
+      "price": "0.99",
+      "categoryID": "4",
+      "id": 12
+    },
+    {
+      "name": "Final Fantasy VII",
+      "description": "Final Fantasy VII, 1997 yılında Square tarafından geliştirilen rol yapma video oyunudur.",
+      "imageUrl": "https://cdn1.epicgames.com/offer/6f43ab8025ad42d18510aa91e9eb688b/EGS_FINALFANTASYVIIREMAKEINTERGRADE_SquareEnix_S1_2560x1440-85f829541a833442eaace75d02e0f07d",
+      "price": "12",
+      "categoryID": "5",
+      "id": 13
+    },
+    {
+      "name": "Yakuza: Like a Dragon",
+      "description": "Yakuza: Like a Dragon, Sega tarafından geliştirilen ve yayınlanan bir rol yapma video oyunudur",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1235140/capsule_616x353.jpg?t=1632304741",
+      "price": "240",
+      "categoryID": "5",
+      "id": 14
+    },
+    {
+      "name": "Persona 4",
+      "description": "Persona 4 veya Shin Megami Tensei: Persona 4, 2008 yılında Atlus tarafından geliştirilen bir rol yapma video oyunudur. ",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1113000/capsule_616x353.jpg?t=1626689322",
+      "price": "99",
+      "categoryID": "5",
+      "id": 15
+    },
+    {
+      "name": "Euro Truck Simulator 2",
+      "description": "Euro Truck Simulator 2, SCS Software tarafından çıkarılmış olan bir kamyon simülasyonudur.",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/227300/capsule_616x353.jpg?t=1640274696",
+      "price": "13",
+      "categoryID": "6",
+      "id": 16
+    },
+    {
+      "name": "Cities: Skylines",
+      "description": "Cities: Skylines, Paradox Interactive tarafından yayınlanmış şehir kurma oyunudur.",
+      "imageUrl": "https://cdn2.unrealengine.com/egs-citiesskylines-colossalorder-s5-1920x1080-689706625.jpg",
+      "price": "12.25",
+      "categoryID": "6",
+      "id": 17
+    },
+    {
+      "name": "SnowRunner",
+      "description": "SnowRunner, Saber Interactive tarafından geliştirilen ve Focus Home Interactive tarafından yayınlanan bir 2020 off-road simülasyon video oyunudur.",
+      "imageUrl": "https://cdn1.epicgames.com/2744acda6a2e493e9894b389b6564df7/offer/Diesel_productv2_snowrunner_home_SnowRunner_EpicGames_Desktop-Horizontal-1360x766-1360x766-aec1e67e70958d183bff5513a80106bc1302eaa4-1360x766-c25e9f4a45c51a067598da2374e51ac4-1360x766-c25e9f4a45c51a067598da2374e51ac4.jpg",
+      "price": "97.50",
+      "categoryID": "6",
+      "id": 18
+    },
+    {
+      "name": "City Car Driving",
+      "description": "City Car Driving, Rus şirketi Multisoft tarafından yapılan ve geliştirilen bir araba ve simülasyon oyunudur.",
+      "imageUrl": "https://www.indirin.co/wp-content/uploads/2019/02/city-car-driving-full-indir-min.jpg",
+      "price": "9",
+      "categoryID": "6",
+      "id": 19
+    },
+    {
+      "name": "Car Mechanic Simulator 2018",
+      "description": "Car Mechanic Simulator 2018, Polonyalı Red Dot Games stüdyosu tarafından geliştirilen ve bir otomotiv tamircisinin işini betimleyen bir simülasyon video oyunudur.",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "price": "10",
+      "categoryID": "6",
+      "id": 20
+    },
+    {
+      "name": "Apex Legends",
+      "description": "Apex Legends, Respawn Entertainment tarafından geliştirilen ve Electronic Arts. tarafından yayınlanan, ücretsiz bir Battle Royale oyunudur. Titanfall ile aynı evrende geçen oyun, Microsoft Windows, PlayStation 4 ve Xbox One için 4 Şubat 2019'da piyasaya sürüldü.",
+      "imageUrl": "https://media.contentapi.ea.com/content/dam/apex-legends/common/articles/apex-mobile-regional-beta/apex-mobile-art-featured-image.jpg.adapt.crop16x9.575p.jpg",
+      "price": "0.99",
+      "categoryID": "1",
+      "id": 21
+    },
+    {
+      "name": "Tomb Raider",
+      "description": "Tomb Raider, Tomb Raider serisinin onuncu video oyunudur. Square Enix ve Crystal Dynamics tarafından geliştirildi ve serinin üçüncü çağı olarak adlandırıldı. Oyun serinin ilk oyunu gibi yalnızca Tomb Raider ismi ile yayınlanmıştır fakat lisans olarak Tomb Raider: A Survivor is Born olarak kayıtlıdır.[1], Oyun 5 Mart 2013 tarihinde Microsoft Windows , PlayStation 3 ve Xbox 360 platformlar için piyasaya sürüldü.",
+      "imageUrl": "https://cdn-ext.fanatical.com/production/product/1280x720/172ac3a7-72f1-4e47-a24b-d42dc2113afa.jpeg",
+      "price": "35",
+      "categoryID": "2",
+      "id": 22
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "FPS - Fİrst Person Shooter"
+    },
+    {
+      "id": 2,
+      "name": "TPS - Third Person Shooter"
+    },
+    {
+      "id": 3,
+      "name": "RPG - Role Playing Game"
+    },
+    {
+      "id": 4,
+      "name": "MOBA - Multiplayer Online Battle Arena"
+    },
+    {
+      "id": 5,
+      "name": "J-RPG - Japanese Role Playing Game"
+    },
+    {
+      "id": 6,
+      "name": "Simulation"
+    }
+  ]
+}

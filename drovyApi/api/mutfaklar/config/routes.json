@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mutfaklars",
+      "handler": "mutfaklar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mutfaklars/count",
+      "handler": "mutfaklar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mutfaklars/:id",
+      "handler": "mutfaklar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mutfaklars",
+      "handler": "mutfaklar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mutfaklars/:id",
+      "handler": "mutfaklar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mutfaklars/:id",
+      "handler": "mutfaklar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
